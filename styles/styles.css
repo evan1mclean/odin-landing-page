@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: center;
     font-size: 18px;
-    padding: 10px 10px 60px 10px;
+    padding: 20px 0 60px 0;
 }
 
 .header,
@@ -21,7 +21,7 @@ body {
     background-color: #1F2937;
 }
 
-.wrapper {
+.header-wrapper {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -50,7 +50,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 400px;
-    gap: 10px;
+    justify-content: space-between;
 }
 
 .hero-content h1 {
@@ -64,9 +64,54 @@ body {
     max-width: 400px;
 }
 
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0 60px 0;
+    gap: 30px;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.information h1 {
+    font-size: 36px;
+    margin: 0;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+    text-align: center;
+}
+
 .card img {
-    height: 200px;
-    width: 200px;
+    border: 2px solid #3882F6;
+    height: 175px;
+    border-radius: 12px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    padding: 30px 300px 60px 300px;
+}
+
+.quote-credit {
+    align-self: flex-end;
+    font-size: 18px;
 }
 
 ul {
@@ -88,6 +133,10 @@ button,
 
 a {
     text-decoration: none;
+}
+
+p {
+    margin: 0;
 }
 
 button {
